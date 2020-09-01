@@ -5,13 +5,14 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    max-height: 44rem;
+    max-height: 39.6rem;
+    max-width: 1200px;
 }
 
 body{
-    background: #1C1C1C;;
-    width: 100%;
-    max-width: 94rem;
+    background: #1C1C1C;
+    width: 1200px;
+    max-width: 1200px;
     color: #9A2EFE;
     text-decoration: none;
     list-style: none;
@@ -24,7 +25,7 @@ body{
     position: absolute;
 
     width: 230px;
-    height: 400rem;
+    height:150%;
     background: #9A2EFE;
     padding: 30px 0;
 }
@@ -68,7 +69,7 @@ transform: translateX(200px);
     margin: 0;
     position: absolute;
     top: 50px;
-    left: 50%;
+    left: 53%;
     margin-right: -50%;
 }
 .wrapper ul{
@@ -77,10 +78,11 @@ transform: translateX(200px);
 .center p{
     position: absolute;
     top: 150px;
-    left: 29%;
-    margin-right: -50%;
+    left: 32%;
+    margin-right: -43%;
     color: white;
-    text-align: justify;
+    text-align: center;
+    font-size: 14px;
 }
 .center footer h3{
     margin: 0;
@@ -101,7 +103,7 @@ transform: translateX(200px);
     position: absolute;
     margin-top: 25px;
     top: 52px;
-    left: 88.5%;
+    left: 98%;
     margin-right: -40%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -111,8 +113,9 @@ transform: translateX(200px);
     margin-top: 29%;
     width: 240px;
 }
+
 .center footer a img {
-  margin-top: 34%;
+  margin-top: 26%;
   background-color: #9A2EFE;
   border-radius: 6px;
   padding-left: 10px;
@@ -120,6 +123,11 @@ transform: translateX(200px);
   padding-right: 10px;
   padding-top: 10px;
   width: 60px;
-  margin-left: 35px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 40px;
+    position: relative;
+margin-left: 110px;
+    left: 28%;
+    margin-right: -50%;
+  
 }
