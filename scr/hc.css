@@ -1,0 +1,48 @@
+body{
+    background: rgba(83, 132, 238, 0.705);
+}
+.content{
+    width: 75%;
+    font-size: 20px;
+}
+input{
+    margin-left: 5%;
+}
+
+.codi{
+    margin-top: 5%;
+    color:#01DF01;
+}
+img {
+    margin-top: 18px;
+}
+.codi1,
+.codi2,
+.codi3,
+.codi4,
+.codi5{
+    margin-top: 10%;
+    color: #2E9AFE;
+}
+.codi1{
+    margin-top: 10%;
+}
+video{
+    margin-top: 18px;
+}
+.codi2{
+    color: #08298A;
+    font-size: 22px;
+}
+.codi3{
+    font-size: 22px;
+    color: #DF01A5;
+}
+.codi4{
+    font-size: 22px;
+    color: #0B610B;
+}
+.codi5{
+    font-size: 22px;
+    color: #01A9DB;
+}

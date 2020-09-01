@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    background: #BE81F7;
+}
+input{
+    background-color: rgb(199, 158, 238);
+    border:1px solid rgb(199, 158, 238);
+    border-radius:4px;
+    box-shadow: 0px 2px 2px rgb(44, 41, 41);
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 15px;
+    text-decoration:none;
+    margin-top: 28px;
+    margin-left: 0.2%;
+}
+.cont{
+        width: 85%;
+        background: white;
+        height: 90%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #8000FF;
+        font-size: 15px;
+    }
+.cod h3{
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    margin-top: -10px;
+    color: black;
+}
+
+.cont .cod img {
+    box-shadow: 3px 3px 5px 3px rgb(95, 89, 89);
+    margin-top: 20px;
+}
+
+#linha-horizontal {
+    text-align: center;
+    color: #8000FF;
+    margin-top: 5%;
+}
+#linha-horizontal h2:before, #linha-horizontal h2:after {
+    content: ' ';
+    position: absolute;
+    width: 25%;
+    border-top: 1px solid #8000FF;
+    margin-top: 1.4%;
+}
+
+#linha-horizontal h2:before {
+    margin-left: -26%;
+}
+
+#linha-horizontal h2:after {
+    margin-left: 9px;
+}
+h2{
+    font-size: 26px;
+    color: #8000FF;
+    top: 10px;
+}
+
+.cont .mini input{
+    border:1px solid #9A2EFE;
+    background-color: #AC58FA;
+    border-radius:4px;
+    box-shadow: 0px 2px 2px rgb(44, 41, 41);
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+    margin: 30px;
+    color: white;
+    margin-top: 4%;
+}
+.div{
+    position: absolute;
+    margin-top: -13%;
+    width: 350px;
+    margin-left: 72%;
+}
+

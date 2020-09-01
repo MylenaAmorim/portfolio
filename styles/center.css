@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    max-height: 44rem;
+}
+
+body{
+    background: #1C1C1C;;
+    width: 100%;
+    max-width: 94rem;
+    color: #9A2EFE;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.wrapper{
+    margin-top: -10px;
+    position: absolute;
+
+    width: 230px;
+    height: 400rem;
+    background: #9A2EFE;
+    padding: 30px 0;
+}
+nav {
+    width: 100%;
+    position: relative;;
+    top: 60px;
+}
+#check:checked ~ .wrapper{
+transform: translateX(200px);
+}
+.wrapper ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+    
+}
+
+.wrapper ul li a {
+    color: white;
+    display: block;
+    
+}
+.wrapper ul li .fas {
+    width: 25px;
+}
+.wrapper ul li:hover{
+    background: rgb(136, 56, 211);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.616);
+}
+.wrapper ul li:hover a{
+    color: black;
+}
+
+.center {
+    position: relative;
+    text-align: justify;
+    
+}
+.center h1{
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-right: -50%;
+}
+.wrapper ul{
+    margin-top: 15px;
+}
+.center p{
+    position: absolute;
+    top: 150px;
+    left: 29%;
+    margin-right: -50%;
+    color: white;
+    text-align: justify;
+}
+.center footer h3{
+    margin: 0;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    margin-right: -50%;
+}
+.center footer {
+    position: absolute;
+    margin-top: 450px;
+    left: 45%;
+    margin-right: -50%;
+}
+.center .photo{
+    margin: 0;
+    background-image: url("/styles/foto.jpg");
+    position: absolute;
+    margin-top: 25px;
+    top: 52px;
+    left: 88.5%;
+    margin-right: -40%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.center .computer{
+    position: absolute;
+    margin-top: 29%;
+    width: 240px;
+}
+.center footer a img {
+  margin-top: 34%;
+  background-color: #9A2EFE;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  width: 60px;
+  margin-left: 35px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
