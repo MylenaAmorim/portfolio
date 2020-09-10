@@ -2,7 +2,6 @@
 
 body{
     background: #4C0B5F;
-    max-width: 94rem;
 }
 
 .cont{
@@ -23,25 +22,15 @@ body{
 .h{
     margin-left: 23%;
     margin-top: 10px;
-}
-h2{
-    font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    left: -50%;
-    margin-bottom: 28px;
-    font-style: unset;
+    width: 30%;
 }
 
-.cont .u{
-   margin-top:4px;
-   
-   width: 300px;
-}
+
 .photo{
     position: absolute;
     margin-top: 35%;
-    width: 280px;
-    margin-left: 83%;
+    width: 32%;
+    margin-left: 81%;
 }
 
 input{
@@ -58,5 +47,22 @@ input{
     text-decoration:none;
     margin-top: 28px;
     margin-left: 8%;
+
+}
+
+@media(max-width: 700px){
+    
+    .cont .h{
+        width: 50%;
+        margin-left: 5.5%;
+        margin-top: 5%;
+    }
+    .photo{
+        margin-top: 100%;
+        margin-left: 90%;
+    }
+    input{
+        margin-left: 1%;
+    }
 
 }
