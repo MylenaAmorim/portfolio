@@ -9,28 +9,18 @@
 } */
 body{
     background: #9A2EFE;
-    
 }
 
 .text{
     margin: auto;
-    margin-top: -56%;
+    margin-top: -1%;
     background: white;
-    width: 65%;
+    width: 75%;
     padding: 1px;
     text-align: center;
     color: black;
-    }
-img{
-    width: 300px;
-  margin-left: 78.1%;
-  margin-top: -55px;
 
-}
-.ima img{
-    margin-top: 140px;
-    margin-left: -35px;
-}
+    }
 
 h1{
     margin-top: 20px;
@@ -55,7 +45,15 @@ input{
     font-size:13px;
     padding:6px 15px;
     text-decoration:none;
-    margin-top: 28px;
-    margin-left: 8%;
+    margin-top: 50px;
+    position: flex;
+    margin-left: 40px;
 
+}
+
+@media (max-width: 700px){
+    .text{
+        margin-top: 2%;
+        width: 95%;
+    }
 }
