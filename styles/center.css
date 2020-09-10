@@ -11,7 +11,7 @@
 
 body{
     background: #1C1C1C;
-    width: 1200px;
+    width: 100%;
     max-width: 1200px;
     color: #9A2EFE;
     text-decoration: none;
@@ -19,34 +19,69 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-
 .wrapper{
     margin-top: -10px;
     position: absolute;
-
-    width: 230px;
+    width: 16%;
     height:150%;
     background: #9A2EFE;
     padding: 30px 0;
 }
 nav {
     width: 100%;
-    position: relative;;
+    position: relative;
     top: 60px;
 }
-#check:checked ~ .wrapper{
-transform: translateX(200px);
+
+label #sidebar_btn{
+    z-index: 1;
+    position: fixed;
+    cursor: pointer;
+    left: 10px;
+    top: 34px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+    color: white;
 }
+
+label #sidebar_btn:hover{
+    color: black;
+}
+
+#check:checked ~ .wrapper{
+    left: -180px;
+}
+#check:checked ~ .wrapper li{
+    margin-left: -30px;
+}
+
+#check:checked ~ .wrapper a span{
+    display: none;
+}
+
+#check:checked ~ .center{
+    margin-left: -60px;
+}
+#check:checked ~ .center .photo{
+    left: 100%;
+    margin-top: .8%;
+}
+#check{
+    display: none;
+}
+
 .wrapper ul li{
     padding: 15px;
     border-bottom: 1px solid rgba(0,0,0,0.05);
-    border-top: 1px solid rgba(225,225,225,0.05);
-    
+    border-top: 1px solid rgba(225,225,225,0.05); 
 }
 
 .wrapper ul li a {
     color: white;
     display: block;
+    margin-left: -25px;
+    font-size: 100%;
     
 }
 .wrapper ul li .fas {
@@ -69,7 +104,7 @@ transform: translateX(200px);
     margin: 0;
     position: absolute;
     top: 50px;
-    left: 55.4%;
+    left: 55.6%;
     margin-right: -50%;
 }
 .wrapper ul{
@@ -99,13 +134,11 @@ transform: translateX(200px);
 }
 .center .photo{
     margin: 0;
-    background-image: url("/styles/foto.jpg");
     position: absolute;
     margin-top: 25px;
     top: 52px;
     left: 98%;
     margin-right: -40%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .center .computer{
@@ -130,4 +163,97 @@ transform: translateX(200px);
     left: 28.4%;
     margin-right: -50%;
   
+}
+
+.ft img{
+    width: 24%;
+    margin-left: 20%;
+    margin-top: 330px;
+    position: absolute
+    
+}
+
+.girl img{
+    width: 24%;
+    margin-left: 85%;
+    margin-top:330px;
+}
+.ph img{
+    display: block;
+    position: absolute;
+}
+
+@media(max-width: 700px){
+
+    body{
+        width: 500px;
+    }
+    .wrapper{
+        width: 165px;
+        height:101.3%;
+        font-size: 12px;
+        
+    }
+    .wrapper li{
+        text-align: left;
+        margin-left: -5px;
+    }
+    .center{
+        width: 50%;
+        text-align: center;
+        position:absolute;
+        margin-left: 20%;
+    }
+    .center h1{
+        font-size: 25px;
+        text-align: center;
+        margin-left: 10%;
+        
+    }
+    .center p{
+        font-size: 12px;
+        text-align: center;
+        width: 110%;
+        margin-left: 0%;
+        margin-top: -35px;
+    }
+    .center .photo img{
+        width: 40%;
+        margin-left: 75%;
+        margin-top: -30%;
+    }
+
+    .center footer{
+        margin-right: -150%;
+        margin-left: -100%;
+    }
+
+    #check:checked ~ .wrapper{
+        left: -120px;
+    }
+
+    .center footer {
+        margin-top: 148%;
+        left: 65%;
+
+    }
+    .center footer a img{
+        width: 8.5%;
+        margin: 3%;
+    }
+    .girl img{
+        margin-top: 110%;
+        margin-left: 115%;
+        width: 40%;
+    }
+    .ft img{
+        margin-top: 110%;
+        margin-left: 15%;
+        width: 40%;
+    }
+
+    #check:checked ~ .center{
+        margin-left: 10%;
+    }
+
 }
