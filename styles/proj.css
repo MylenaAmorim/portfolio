@@ -87,10 +87,22 @@ h2{
     color: white;
     margin-top: 4%;
 }
-.div{
+.cont .div{
     position: absolute;
-    margin-top: -13%;
-    width: 350px;
-    margin-left: 72%;
+    margin-top: -15%;
+    width: 29%;
+    margin-left: 74%;
+}
+@media (max-width: 700px){
+
+    input{
+        margin-top: 9px;
+        font-size:10px;
+        padding:4px 10px;
+    }
+    .cont{
+       margin-top: 14px;
+        
+    }
 }
 
